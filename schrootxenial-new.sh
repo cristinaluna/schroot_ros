@@ -11,7 +11,7 @@ sudo apt-get install --assume-yes debootstrap schroot
 
 # new chroot environment
 sudo mkdir -p /srv/chroot/kinetic_xenial
-sudo debootstrap --variant=buildd --arch=amd64 trusty /srv/chroot/kinetic_xenial http://archive.ubuntu.com/ubuntu/
+sudo debootstrap --variant=buildd --arch=amd64 xenial /srv/chroot/kinetic_xenial http://archive.ubuntu.com/ubuntu/
 
 # copying ros setup file
 sudo cp ./schrootxenial-ros.sh /srv/chroot/kinetic_xenial/root/
