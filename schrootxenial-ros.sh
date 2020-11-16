@@ -16,6 +16,7 @@ sudo sh -c 'echo "deb http://packages.ros.org/ros/ubuntu $(lsb_release -sc) main
 sudo apt-key adv --keyserver 'hkp://keyserver.ubuntu.com:80' --recv-key C1CF6E31E6BADE8868B172B4F42ED6FBAB17C654
 sudo apt-get install -y curl git
 sudo apt-get update
+sudo apt-get install -y stow ros-kinetic-desktop
 sudo apt-get install -y ros-kinetic-robot-state-publisher ros-kinetic-joint-state-publisher ros-kinetic-serial ros-kinetic-xacro ros-kinetic-roslint ros-kinetic-diagnostics ros-kinetic-dynamic-reconfigure ros-kinetic-angles
 sudo apt-get install -y ros-kinetic-geographic-msgs ros-kinetic-tf2-geometry_msgs ros-kinetic-gps-common
 sudo apt-get install -y ros-kinetic-usb-cam
